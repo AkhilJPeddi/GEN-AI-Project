@@ -1,5 +1,5 @@
 # CodeCraftGPT
-<img src="./logo.png" alt="CodecraftGPT" width="200">
+<img src="pictures/logo.png" alt="CodecraftGPT" width="200">
 <br>
 CodeCraft GPT is an innovative, all-in-one platform harnessing the power of advanced Language Models (OpenAI). It seamlessly integrates four key components to elevate the coding experience for developers.
 
