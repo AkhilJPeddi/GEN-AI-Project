@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from components import (
     home,
     refactor_page,
-    style_page,
     test_page,
     lang_page,
     code_documentation_page,
@@ -43,12 +42,12 @@ def main():
         selected = option_menu(
             menu_title="GEN AI Patterns",
             options=[
-                "Home", "Chat with Documents" , "Chat Documents with RAG" , "Image to Text", "StyleSculpt",
+                "Home", "Chat with Documents" , "Chat Documents with RAG" , "Image to Text", 
                 "TestGenius", "LangLink", "CodeDocGenius", "Database", "Text Summarization"
             ],
             icons=[
                 'house', 'gear', 'gear', 'palette', 'clipboard2-pulse', 'clipboard2-pulse',
-                'code-slash', 'file-text', 'database', 'phone'
+                'code-slash', 'file-text', 'database'
             ],
             default_index=0
         )
@@ -59,7 +58,6 @@ def main():
         "Chat with Documents" : chat_with_docs.chat_with_docs,
         "Chat Documents with RAG" : chat_with_rag.chat_with_rag,
         "Image to Text": image_to_text.image_to_text,
-        "StyleSculpt": style_page.show_style_page,
         "TestGenius": test_page.show_test_page,
         "LangLink": lang_page.show_lang_page,
         "CodeDocGenius": code_documentation_page.show_doc_page,
