@@ -1,5 +1,5 @@
 # Multi-Model-AI-ToolKit
-<img src="./logo.png" alt="Multi-Model-AI-ToolKit" width="200">
+
 <br>
 Multi-Model-AI-ToolKit is an innovative, all-in-one platform harnessing the power of advanced Language Models (OpenAI). It seamlessly integrates multiple AI-powered functionalities to elevate the coding and data analysis experience for developers and data scientists.
 
